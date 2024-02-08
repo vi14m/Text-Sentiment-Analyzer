@@ -1,0 +1,79 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+
+/* Styles for the main container */
+.container {
+    margin-top: 30px;
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+.heading {
+    color: #2b3e51;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Sub-heading styles */
+.sub-heading {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+/* Textarea styles */
+.text-input {
+    width: 100%;
+    min-height: 150px;
+    padding: 10px;
+    color: gray;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+}
+
+/* Classify button styles */
+.classify-btn {
+    background-color: #008bff;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 3px 10px rgba(0, 136, 255, 0.3);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.063rem;
+    padding: 10px 20px;
+    transition: 0.3s ease;
+    margin-top: 15px;
+    width: auto; /* Set to auto or a specific width value */
+}
+
+.classify-btn:hover {
+    opacity: 0.9;
+}
+
+/* Result paragraph styles */
+.result {
+    margin-top: 15px;
+    font-size: 1.1rem;
+    color: #555;
+}

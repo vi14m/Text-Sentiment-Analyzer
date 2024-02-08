@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Sentiment Analyzer</h1>
+    </div>
+    <div class="container">
+        <h3 class="sub-heading">Play with your text here</h3>
+        <textarea id="textInput" class="text-input" cols="42" rows="12" spellcheck="false" data-ms-editor="true" placeholder="Enter Your Text Here"></textarea>
+    </div>
+    <button type="button" class="classify-btn" onclick="classifyText()">Classify Text</button>
+    <div class="container">
+        <h3 class="sub-heading">Results</h3>    
+        <p id="sentimentResult" class="result"> </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
